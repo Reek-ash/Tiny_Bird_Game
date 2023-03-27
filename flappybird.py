@@ -161,7 +161,7 @@ def isCollide(playerx, playery, upperPipes, lowerPipes):
 
 def getRandomPipe():
     """
-    Generate positions of two pipes(one bottom straight and one top rotated ) for blitting on the screen
+    Generate positions of two pipes(one bottom straight and one top rotated ) for blitting on the Screen
     """
     pipeHeight = GAME_SPRITES['pipe'][0].get_height()
     offset = SCREENHEIGHT/3
